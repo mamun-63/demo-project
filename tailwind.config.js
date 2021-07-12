@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        raleway: ['Play']
+        play: ['Play']
       }
     }
   },

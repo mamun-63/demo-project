@@ -17,6 +17,15 @@
 
 @layer components {
   .default-text {
-    @apply antialiased text-gray-900 overflow-hidden;
+    @apply antialiased text-gray-900 overflow-hidden font-play;
+  }
+  .btn-primary {
+    @apply bg-gray-800 py-px px-1.5 text-white rounded;
+  }
+  .btn-outlined {
+    @apply bg-white px-1.5 text-black border border-gray-500 rounded;
+  }
+  .input-simple {
+    @apply px-4 h-9 border border-gray-300 rounded-full bg-transparent focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent;
   }
 }
