@@ -1,0 +1,22 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Play';
+    font-weight: 400;
+    /* src: url('../fonts/RobotoMono-Regular.ttf') format("truetype") */
+    src: url('../fonts/Play-Regular.woff') format("woff")
+  }
+}
+
+@layer components {
+  .default-text {
+    @apply antialiased text-gray-900 overflow-hidden;
+  }
+}
